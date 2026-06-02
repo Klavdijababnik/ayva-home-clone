@@ -1,0 +1,1 @@
+function s(r){const t=new Date(r),a=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],n=t.getUTCDate(),c=t.getUTCFullYear(),o=a[t.getUTCMonth()];function u(e){if(e>3&&e<21)return"th";switch(e%10){case 1:return"st";case 2:return"nd";case 3:return"rd";default:return"th"}}return`${o} ${n}${u(n)}, ${c}`}export{s as f};
